@@ -80,7 +80,6 @@ th {
 section {
     max-width: 65rem;
     margin: 0 auto;
-    border: 1px solid lightgray;
     text-align: center;
 }
 
@@ -90,5 +89,16 @@ h1 {
 
 .untertitel {
     color: rgb(255, 0, 0);
+    font-size: 2rem;
+}
+
+.card {
+    border: 1px solid lightgray;
+    border-radius: 0.25rem;;
+}
+
+.egal {
+    color: #0044ff;
+    font-style: italic;
     font-size: 2rem;
 }
