@@ -33,7 +33,8 @@ h4,
 h5,
 h6 {
     font-size: 150%;
-    font-weight: normal
+    font-weight: normal;
+    margin-block: 1rem;
 }
 
 ul {
@@ -94,7 +95,8 @@ h1 {
 
 .card {
     border: 1px solid lightgray;
-    border-radius: 0.25rem;;
+    border-radius: 0.25rem;
+    ;
 }
 
 .egal {
@@ -105,6 +107,30 @@ h1 {
 .form {
     align-items: center;
     display: flex;
-    
+
     flex-direction: column;
+}
+
+.btn {
+    margin-top: 1rem;
+    background-color: transparent;
+    width: fit-content;
+    padding: 1rem 3rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100vh;
+    transition: 350ms ease-in-out;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background-color: limegreen;
+    color: white;
+    border-color: white;
+
+}
+
+.unten1 {
+    text-align: center;
+    border-radius: 3rem;
+    border: 50px solid rgb(255, 255, 255);
 }
